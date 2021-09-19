@@ -1,4 +1,4 @@
-# Hacker News Posts
+# Random Users List
 
 A simple react aplication which displays the randomly generated users using the API from [Random User Generator website](https://randomuser.me/). Ten users are initailly displayed on the home page, after every ten seconds, ten more users are added to the bottom. On clicking a  particular user, further details will be displayed.
 
