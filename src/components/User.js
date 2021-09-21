@@ -21,10 +21,10 @@ const User = ({ user, showUserDetails }) => {
     <Card raised className={classes.card} onClick={() => showUserDetails(user)}>
       <CardContent>
         <Grid container>
-          <Grid item xs={1}>
+          <Grid item xs={12} md={1}>
             <Avatar className={classes.avatar} src={picture.large} />
           </Grid>
-          <Grid item xs={11}>
+          <Grid item xs={12} md={10}>
             <Typography style={{ color: "#555" }}>{`${name.first} ${name.last}`}</Typography>
             <Typography style={{ color: "#777" }}>{email}</Typography>
           </Grid>
